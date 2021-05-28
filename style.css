@@ -9,14 +9,32 @@ body {
 }
 #grid {
   display:grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 200px 1fr;
 }
 #contents {
   border-right: 1px gray solid;
   padding: 5px;
   text-align: center;
 }
-a {
+#videos {
+    padding: 10px;
+    padding-left: 25px;
+}
+a.content {
   text-decoration: none;
   color: black;
+  font-size: 20px;
+}
+
+#topic {
+  display: block;
+  border: 5px solid gray;
+  text-decoration: none;
+  color: black;
+}
+
+a.main {
+  text-decoration: none;
+  color: black;
+
 }
